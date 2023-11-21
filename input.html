@@ -1,0 +1,82 @@
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>REGISTRASI UNIPI</title>
+</head>
+<body style="background-image: url(backgroun\ new3.jpg);"></body>
+    <!--penulisan internal css dalam tag body-->
+   <style type="text/css">
+    i {
+        font-family: sans;
+        color:orange
+    }
+   </style>
+    <center>
+        <h1 style="text-decoration: underline;" >QUIZ PEMPROGRAMAN BERBASIS WEB </h1></center>
+        <P>
+            <a href="index.html" >DATA DIRI</a>
+            <a href="list_data.html" >JURUSAN UNIPI</a>
+            <a href="tabel_data.html" >TABEL</a>
+            <a href="about.html" >CV</a>
+         </P>
+        <form action="registrasi.php" method="POST ">
+        <fieldset>
+            <legend><i>REGISTRASI UNIPI</i> </legend>
+            <p>
+                <label><i>NAMA</i></label>
+                <input type="text" name="nama" placeholder="nama lengkap....."/>
+            </p>
+
+            <p>
+                <label><i>USER NAME</i></label>
+                <input type="text" name="username" placeholder="username....."/>
+            </p>
+            <p>
+                <label><i>NPM</i></label>
+                <input type="text" name="npm" placeholder="npm....."/>
+            </p>
+            <p>
+                <label><i>JURUSAN</i></label>
+                <input type="text" name="jurusan" placeholder="jurusan....."/>
+            </p>
+            <p>
+                <label><i>NO HANDPHONE</i></label>
+                <input type="text" name="nohandphone" placeholder="nohandphone....."/>
+            </p>
+            <p>
+                <label><i>ALASAN MASUK UNIPI</i></label>  
+                <textarea name="alasanmasukunipi"></textarea>
+            </p>
+            <p>
+                <label><i>AGAMA</i></label>
+                <select name="agama">
+                <option value="islam">islam</option>
+                <option value="kristen katolik">kristen katolik</option>
+                <option value="kristen protestan">kristen protestan</option>
+                <option value="hindu">hindu</option>
+                <option value="budha">budha</option>
+                </select>
+            </p>
+            <P>
+                <label><I>jenis kelamin:</I></label>
+                <label><input type="radio" name="jenis_kelamin" value="laki-laki"/> laki-laki </label>
+                <label><input type="radio" name="jenis_kelamin" value=";perempuan"/> perempuan </label>
+                </P>
+            <p>
+                <lebel><i>tanggal priode:</i></lebel>
+                <input type="date" name="tanggal"/> s/d
+                <input type="date" name="tanggal"/>
+            </p>
+        </p>
+        <input type="submit" name="submit" value="login">
+        <input type="submit" name="batal" value="batal">
+    </p>
+        
+
+        </fieldset>
+    </form>
+    
+</b ody>
+</html>
